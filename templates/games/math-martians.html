@@ -1,0 +1,50 @@
+<!doctype html>
+
+
+
+<html>
+<head>
+	<link rel=stylesheet type=text/css href="/static/css/games.css">
+	<link rel=stylesheet type=text/css href="/static/css/math-martians.css">
+	<script src="../../static/js/games-basic-functions.js"></script>
+	<script src="../../static/js/math-martians.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+	{% extends "templates/layout.html" %}
+
+	{% block body %}
+		<div class="games-title">
+			MATH MARTIANS
+		</div>
+		<div id="games-canvas-container">
+			<div id="games-canvas">
+				<div class="games-button-start" onclick="runGame()">
+					START
+				</div>
+
+			</div>
+		</div>
+
+
+
+	{% endblock %}
+
+
+
+</body>
+
+
+
+</html>

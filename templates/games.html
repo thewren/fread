@@ -1,0 +1,85 @@
+<!doctype html>
+
+
+
+<html>
+<head>
+	<link rel=stylesheet type=text/css href="/static/css/games.css">
+	<script src="static/js/scripts.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+	{% extends "templates/layout.html" %}
+
+	{% block body %}
+		<div class="games-game-container">
+			<a href="/games/reading-rocket">
+				<div class="games-stripe">
+					<div class="games-portrait">
+
+					</div>
+					<div class="games-description">
+						<h1>
+							READING ROCKET
+						</h1>
+						<p>
+							A meteor is coming! Help Doofus the Dinosaur blast off to safety by completing sentences.
+						</p>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="games-game-container">
+			<a href="/games/math-martians">
+				<div class="games-stripe">
+					<div class="games-portrait">
+
+					</div>
+					<div class="games-description">
+						<h1>
+							MATH MARTIANS
+						</h1>
+						<p>
+							These Martians don't understand any of Earth's languages, but they understand math!
+						</p>
+					</div>
+				</div>
+			</a>
+		</div>
+		<div class="games-game-container">
+			<div class="games-stripe">
+				<div class="games-portrait">
+				</div>
+				<div class="games-description">
+					<h1>
+						GAME TITLE
+					</h1>
+					<p>
+						A description of the game.
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+
+	{% endblock %}
+
+
+
+</body>
+
+
+
+</html>

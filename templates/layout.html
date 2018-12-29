@@ -1,0 +1,54 @@
+<!doctype html>
+
+
+
+<html>
+<head>
+	<title>Fread</title>
+	<link rel=stylesheet type=text/css href="/static/css/style.css">
+</head>
+
+
+<body>
+
+	<div id="header">
+
+		<a href="/">
+			<div id="logo">
+				<!--<img src="../static/images/buttons/waves_400x400.gif" />-->
+			</div>
+			<div id="title">
+				Fread
+			</div>
+		</a>
+
+		<div id="nav-bar">
+			<a href="/about">
+				<div class="nav-bar-button">
+					About
+				</div>
+			</a>
+			<a href="/games">
+				<div class="nav-bar-button">
+					Games
+				</div>
+			</a>
+
+
+		</div>
+
+	</div>
+
+
+	<div id="body-container">
+		{% block body %}
+		{% endblock %}
+	</div>
+	<div id="footer">
+		FOOTER
+	</div>
+
+
+
+</body>
+</html>

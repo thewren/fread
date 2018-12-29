@@ -1,0 +1,23 @@
+.about-portrait-container {
+
+}
+
+.about-portrait {
+	width: 20%;
+	height: 0; padding-bottom: 20%;
+	border-radius: 10000px;
+	background-color: #111111;
+	margin-top: 100px; margin-bottom: 50px;
+	margin-left: 15%; margin-right: 15%;
+	float: left;
+}
+
+.about-description {
+	width: 30%;
+	margin-left: 10%; margin-right: 10%;
+	float: left;
+}
+
+.about-description > h1 {
+	text-align: center;
+}
